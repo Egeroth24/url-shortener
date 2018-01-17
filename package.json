@@ -1,0 +1,27 @@
+{
+  "name": "url_shortener_microservice",
+  "version": "0.0.1",
+  "description": "I can pass a URL as a parameter and I will receive a shortened URL in the JSON response. When I visit that shortened URL, it will redirect me to my original link.",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "express": "4.x.x",
+    "mongodb": "3.x.x",
+    "mongoose": "4.x.x"
+  },
+  "engines": {
+    "node": "8.x"
+  },
+  "repository": {
+    "url": "https://glitch.com/edit/#!/welcome-project"
+  },
+  "license": "MIT",
+  "keywords": [
+    "node",
+    "glitch",
+    "express",
+    "mongoose"
+  ]
+}

@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>URL Shortener Microservice</title>
+    <link id="favicon" rel="icon" href="https://glitch.com/edit/favicon-app.ico" type="image/x-icon">
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+    <link rel="stylesheet" href="/style.css">
+  </head>
+  <body>
+    <div id="container">
+      <h1>FreeCodeCamp URL Shortener Microservice</h1>
+      <blockquote>
+        User Stories:
+        <ol>
+          <li>I can pass a URL as a parameter and I will receive a shortened URL in the JSON response.</li>
+          <li>If I pass an invalid URL that doesn't follow the valid http://www.example.com format, the JSON response will contain an error instead.</li>
+          <li>When I visit that shortened URL, it will redirect me to my original link.</li>
+        </ol>
+      </blockquote>
+      <h2>Example Usage:</h2>
+      <code>https://gregarious-swing.glitch.me/https://www.google.com.au/search?q=cats&rlz=2C1ASRM_enAU0536AU0536&source=lnms&tbm=isch</code> <br />
+      
+      <h2>Example Output:</h2>
+      <code>{ "original_url": "https://www.google.com.au/search?q=cats&rlz=2C1ASRM_enAU0536AU0536&source=lnms&tbm=isch", "shortened_url": "https://gregarious-swing.glitch.me/4102" }</code>
+      <h3>Visiting the shortened url will redirect to the original link.</h3>
+      <h3>Shortened urls will reset if all short codes are used.</h3>
+    </div>
+  </body>
+</html>
