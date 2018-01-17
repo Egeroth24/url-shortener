@@ -143,7 +143,7 @@ app.use('/', function(req, res)  {
                       if (err) console.log(err);
                       console.log('id removed');
                       // 4. Return the random availableId and url.
-                      res.json( {"original_url": query, "shortened_url": 'localhost:3000/' + randomId} ); // https://gregarious-swing.glitch.me/
+                      res.json( {"original_url": query, "shortened_url": 'https://gregarious-swing.glitch.me/' + randomId} );
                   });
               });
           }     
